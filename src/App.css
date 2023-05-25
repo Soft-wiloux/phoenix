@@ -1,0 +1,82 @@
+.card {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  background: blueviolet;
+}
+
+.card-body{
+  border: none;
+  border-radius: 0px;
+}
+
+.card-body img {
+  width: 100%;
+
+}
+
+.portada img {
+  width: 100%;
+  height: 650px;
+  position: fixed;
+}
+
+.portada {
+  position: relative;
+  display: inline-block;
+}
+
+.capa-oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+}
+
+#header {
+  margin-left: 400px;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+  margin-right: 80px;
+  color: wheat;
+}
+
+body {
+  background-image: url('./logo.png');
+  background-size: 1150px;
+  background-position-x: 100px;
+  background-position-y: -200px;
+  background-attachment: fixed;
+}
+
+.noticia {
+  margin-left: 20px;
+  border-left: 2px rgb(0, 225, 255) solid;
+  width: 440px;
+  padding-left: 20px;
+  height: auto;
+}
+
+.my-footer {
+  width: 100%;
+  height: 300px;
+  background: rgb(24, 22, 22);
+}
+
+.my-footer div {
+  width: 200px;
+  height: auto;
+  padding: 30px;
+  margin-left: 50px;
+  background: transparent;
+}
+
+.my-footer li {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.61);
+}
+
